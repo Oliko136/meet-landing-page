@@ -1,3 +1,4 @@
+/* Custom property declarations */
 :root {
     --cyan-600: #4D96A9;
     --cyan-300: #8FE3F9;
@@ -33,6 +34,7 @@
     --spacing-1400: 7rem;
 }
 
+/* Global styles and style reset */
 html {
     box-sizing: border-box;
 }
