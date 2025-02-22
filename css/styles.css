@@ -1,1 +1,22 @@
 @import './global.css';
+
+.title {
+    font-size: var(--font-size-1-mobile);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1-mobile);
+}
+
+.section-title {
+    font-size: var(--font-size-2-mobile);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2-mobile);
+}
+
+.remark {
+    font-size: var(--font-size-3-mobile);
+    font-weight: var(--font-weight-1);
+    text-transform: uppercase;
+    line-height: var(--line-height-3-mobile);
+    letter-spacing: var(--letter-spacing-accent);
+    
+}
