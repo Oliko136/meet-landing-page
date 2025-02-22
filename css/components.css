@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    gap: var(--spacing-50);
+    padding: var(--spacing-200) var(--spacing-500);
+    border: none;
+    border-radius: 29px;
+    font-weight: var(--font-weight-1);
+    color: var(--white);
+    background-color: var(--purple-600);
+    transition: background-color 250ms linear;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #B18BDD;
+}
+
+.button span {
+    color: var(--purple-300);
+}
+
+.button-accent {
+    background-color: var(--cyan-600);
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background-color: #71C0D4;
+}
+
+.button-accent span {
+    color: var(--cyan-300);
+}
