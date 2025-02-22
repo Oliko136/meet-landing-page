@@ -1,3 +1,4 @@
+/* Button component */
 .button {
     display: flex;
     gap: var(--spacing-50);
