@@ -1,5 +1,6 @@
 @import './global.css';
 
+/* Mobile styles */
 .title {
     font-size: var(--font-size-1-mobile);
     font-weight: var(--font-weight-1);
@@ -18,5 +19,40 @@
     text-transform: uppercase;
     line-height: var(--line-height-3-mobile);
     letter-spacing: var(--letter-spacing-accent);
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: var(--font-size-1-tablet);
+        line-height: var(--line-height-1-tablet);
+    }
     
+    .section-title {
+        font-size: var(--font-size-2-tablet);
+        line-height: var(--line-height-2-tablet);
+    }
+    
+    .remark {
+        font-size: var(--font-size-3-tablet);
+        line-height: var(--line-height-3-tablet);
+    }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1440px) {
+    .title {
+        font-size: var(--font-size-1-desktop);
+        line-height: var(--line-height-1-desktop);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-2-desktop);
+        line-height: var(--line-height-2-desktop);
+    }
+    
+    .remark {
+        font-size: var(--font-size-3-desktop);
+        line-height: var(--line-height-3-desktop);
+    }
 }

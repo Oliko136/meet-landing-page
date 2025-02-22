@@ -95,3 +95,11 @@ body {
     line-height: var(--line-height-4-tablet);
     text-align: center;
 }
+
+/* Desktop global styles */
+@media screen and (min-width: 1440px) {
+    body {
+        font-size: var(--font-size-4-desktop);
+        line-height: var(--line-height-4-desktop);
+    }
+}
