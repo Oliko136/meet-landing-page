@@ -5,12 +5,14 @@
     font-size: var(--font-size-1-mobile);
     font-weight: var(--font-weight-1);
     line-height: var(--line-height-1-mobile);
+    color: var(--slate-900);
 }
 
 .section-title {
     font-size: var(--font-size-2-mobile);
     font-weight: var(--font-weight-1);
     line-height: var(--line-height-2-mobile);
+    color: var(--slate-900);
 }
 
 .remark {
@@ -19,6 +21,11 @@
     text-transform: uppercase;
     line-height: var(--line-height-3-mobile);
     letter-spacing: var(--letter-spacing-accent);
+    color: var(--cyan-600);
+}
+
+.footer {
+    background-color: var(--cyan-600);
 }
 
 /* Tablet styles */

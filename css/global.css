@@ -94,6 +94,8 @@ body {
     font-weight: var(--font-weight-2);
     line-height: var(--line-height-4-tablet);
     text-align: center;
+    color: var(--slate-600);
+    background-color: var(--white);
 }
 
 /* Desktop global styles */
