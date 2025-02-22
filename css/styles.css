@@ -1,6 +1,12 @@
 @import './global.css';
 
 /* Mobile styles */
+.container {
+    width: var(--mobile);
+    margin: 0 auto;
+    padding: 0 var(--spacing-400);
+}
+
 .title {
     font-size: var(--font-size-1-mobile);
     font-weight: var(--font-weight-1);
@@ -30,6 +36,10 @@
 
 /* Tablet styles */
 @media screen and (min-width: 768px) {
+    .container {
+        width: var(--tablet);
+    }
+    
     .title {
         font-size: var(--font-size-1-tablet);
         line-height: var(--line-height-1-tablet);
@@ -48,6 +58,11 @@
 
 /* Desktop styles */
 @media screen and (min-width: 1440px) {
+    .container {
+        width: var(--desktop);
+        padding: 0 var(--spacing-1000);
+    }
+
     .title {
         font-size: var(--font-size-1-desktop);
         line-height: var(--line-height-1-desktop);

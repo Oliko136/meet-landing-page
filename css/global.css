@@ -45,6 +45,9 @@
     --spacing-900: 4.5rem;
     --spacing-1000: 5rem;
     --spacing-1400: 7rem;
+    --mobile: 375px;
+    --tablet: 768px;
+    --desktop: 1440px;
 }
 
 /* Fonts */
