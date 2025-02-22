@@ -67,6 +67,11 @@
     padding-top: var(--spacing-800);
     padding-bottom: var(--spacing-800);
     background-color: var(--cyan-600);
+    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), 
+            url('/assets/images/mobile/meet-footer-mobile.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .footer_content {
@@ -117,6 +122,11 @@
         font-size: var(--font-size-3-tablet);
         line-height: var(--line-height-3-tablet);
     }
+
+    .footer {
+        background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)),
+                url('/assets/images/tablet/meet-footer-tablet.webp');
+    }
 }
 
 /* Desktop styles */
@@ -152,6 +162,8 @@
     .footer {
         padding-top: var(--spacing-1400);
         padding-bottom: var(--spacing-1400);
+        background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)),
+                url('/assets/images/desktop/meet-footer-desktop.webp');
     }
 
     .footer_content {
