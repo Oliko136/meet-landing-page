@@ -18,6 +18,14 @@
     justify-content: center;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: var(--spacing-800);
+    padding-bottom: var(--spacing-400);
+}
+
 .hero_content {
     display: flex;
     flex-direction: column;
@@ -62,6 +70,11 @@
 @media screen and (min-width: 768px) {
     .container {
         width: var(--tablet);
+    }
+
+    .hero {
+        gap: var(--spacing-900);
+        padding-bottom: var(--spacing-800);
     }
 
     .hero_content {

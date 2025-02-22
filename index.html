@@ -24,7 +24,13 @@
   <main>
     <!-- Hero section -->
     <section class="hero section">
-      <img src="./assets/tablet/image-hero.png" alt="Photos of platform users" class="hero_img">
+      <picture class="hero_img">
+        <source media="(max-width: 767px)" srcset="./assets/images/mobile/meet-hero-mobile.webp 1x, ./assets/images/mobile/meet-hero-mobile@2x.webp 2x">
+        <source media="(max-width: 1439px)" srcset="./assets/images/tablet/meet-hero-tablet.webp 1x, ./assets/images/tablet/meet-hero-tablet@2x.webp 2x">
+        <source srcset="./assets/images/desktop/meet-hero-desktop-left.webp 1x, ./assets/images/desktop/meet-hero-desktop-left@2x.webp 2x">
+        <img src="#" alt="Photos of platform users" width="100%">
+      </picture>
+
       <div class="container">
         <div class="hero_content">
           <h1 class="title">Group Chat <br> for Everyone</h1>
@@ -56,6 +62,7 @@
             <img class="gallery_img" src="./assets/desktop/image-man-texting.jpg" alt="Man texting">
           </li>
         </ul>
+
         <p class="remark">Built for modern use</p>
         <h2 class="section-title">Smarter meetings, all in one place</h2>
         <p class="description">
