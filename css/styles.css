@@ -7,6 +7,17 @@
     padding: 0 var(--spacing-400);
 }
 
+.header {
+    display: flex;
+    align-items: end;
+    height: 76px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
 .title {
     font-size: var(--font-size-1-mobile);
     font-weight: var(--font-weight-1);
@@ -61,6 +72,10 @@
     .container {
         width: var(--desktop);
         padding: 0 var(--spacing-1000);
+    }
+
+    .header {
+        height: 108px;
     }
 
     .title {
