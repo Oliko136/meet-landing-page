@@ -47,6 +47,17 @@
     color: var(--slate-900);
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-200);
+}
+
+.gallery_item {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 .section-title {
     font-size: var(--font-size-2-mobile);
     font-weight: var(--font-weight-1);
@@ -112,7 +123,13 @@
         font-size: var(--font-size-1-tablet);
         line-height: var(--line-height-1-tablet);
     }
-    
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        gap: var(--spacing-300);
+    }
+
     .section-title {
         font-size: var(--font-size-2-tablet);
         line-height: var(--line-height-2-tablet);
@@ -148,6 +165,10 @@
         font-size: var(--font-size-1-desktop);
         line-height: var(--line-height-1-desktop);
     }
+
+    .gallery {
+        gap: var(--spacing-400);
+    } 
     
     .section-title {
         font-size: var(--font-size-2-desktop);
