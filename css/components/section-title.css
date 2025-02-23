@@ -1,0 +1,21 @@
+/* Section title component */
+.section-title {
+    font-size: var(--font-size-2-mobile);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2-mobile);
+    color: var(--slate-900);
+}
+
+@media screen and (min-width: 768px) {
+    .section-title {
+        font-size: var(--font-size-2-tablet);
+        line-height: var(--line-height-2-tablet);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section-title {
+            font-size: var(--font-size-2-desktop);
+            line-height: var(--line-height-2-desktop);
+        }
+}

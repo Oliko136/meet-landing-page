@@ -1,0 +1,21 @@
+/* Title component */
+.title {
+    font-size: var(--font-size-1-mobile);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1-mobile);
+    color: var(--slate-900);
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: var(--font-size-1-tablet);
+        line-height: var(--line-height-1-tablet);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .title {
+        font-size: var(--font-size-1-desktop);
+        line-height: var(--line-height-1-desktop);
+    }
+}

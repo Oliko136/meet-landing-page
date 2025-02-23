@@ -1,0 +1,17 @@
+/* Header section */
+.header {
+    display: flex;
+    align-items: end;
+    height: 76px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        height: 108px;
+    }
+}

@@ -1,0 +1,12 @@
+/* Fonts */
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/RedHatDisplay-Medium.ttf) format('truetype');
+    font-weight: var(--font-weight-2);
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/RedHatDisplay-Black.ttf) format('truetype');
+    font-weight: var(--font-weight-1);
+}
