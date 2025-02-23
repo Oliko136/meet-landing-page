@@ -100,6 +100,8 @@
 }
 
 .footer {
+    position: relative;
+    margin-top: 110px;
     padding-top: var(--spacing-800);
     padding-bottom: var(--spacing-800);
     background-color: var(--cyan-600);
@@ -108,6 +110,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.footer_number {
+    position: absolute;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .footer_content {
