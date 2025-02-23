@@ -24,9 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshots/meet-screenshot-1.jpg)
-![](./assets/screenshots/meet-screenshot-2.jpg)
-![](./assets/screenshots/meet-screenshot-3.jpg)
+![]()
 
 ### Links
 
