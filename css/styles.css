@@ -27,6 +27,10 @@
     padding-bottom: var(--spacing-400);
 }
 
+.hero_img img {
+    width: 100%;
+}
+
 .hero_img-left,
 .hero_img-right {
     display: none;
@@ -86,6 +90,10 @@
 .gallery_item {
     border-radius: 8px;
     overflow: hidden;
+}
+
+.gallery_img {
+    width: 100%;
 }
 
 .section-title {
