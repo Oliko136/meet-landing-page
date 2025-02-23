@@ -27,6 +27,11 @@
     padding-bottom: var(--spacing-400);
 }
 
+.hero_img-left,
+.hero_img-right {
+    display: none;
+}
+
 .hero_content {
     display: flex;
     flex-direction: column;
@@ -201,6 +206,31 @@
 
     .header {
         height: 108px;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero_img {
+        display: none;
+    }
+
+    .hero_img-left,
+    .hero_img-right {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+    }
+
+    .hero_img-left {
+        left: 0;
+        
+    }
+
+    .hero_img-right {
+        right: 0;
     }
 
     .hero_content {
