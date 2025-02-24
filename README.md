@@ -43,7 +43,19 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I completed this project to combine and apply all my newly (and previously) aquired knowledge about best accessibility practices, performance and speed optimization, SEO optimization, code validation, cross browser testing and CSS architecture.
+
+As a result, this landing page:
+
+- ✔️ Uses W3 validated HTML and CSS
+- ✔️ Uses semantic HTML
+- ✔️ Uses optimized images for 3 device types and 2 resolution types
+- ✔️ Uses optimized SVG icon sprite
+- ✔️ Is fully responsive and works seamlessly on mobile, tablet and desktop devices
+- ✔️ Follows a separation of concerns architecture principle and contains CSS styles in different folders
+- ✔️ Was tested on Chrome, Firefox, Edge, Safari, IOS Safari
+- ✔️ Includes a meta description for search engines
+- ✔️ Passed all performance tests
 
 ## Author
 
