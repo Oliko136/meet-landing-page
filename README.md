@@ -6,7 +6,7 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,9 +22,17 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![]()
+![](./screenshots/meet-screenshot-1.webp)
+![](./screenshots/meet-screenshot-2.webp)
+![](./screenshots/meet-screenshot-3.webp)
+
+Lighthouse report:
+![](./screenshots/meet-metrics.webp)
+
+Accessibility report details - the only issue is color contrast, but I decided to leave original color scheme provided by the design.
+![](./screenshots/meet-a11y-report.webp)
 
 ### Links
 
